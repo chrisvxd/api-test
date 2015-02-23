@@ -3,7 +3,7 @@
 
 def functional_method(first_arg, second_arg='Test'):
     """
-    @api {get} functional_method Functional Method
+    @api {get} functional_method(first_arg,second_arg) Functional Method
     @apiName FunctionalMethod
     @apiGroup TestApi
 
