@@ -7,6 +7,8 @@ def functional_method(first_arg, second_arg='Test'):
     @apiName FunctionalMethod
     @apiGroup TestApi
 
+    @apiDescription This is a test apiDoc method. This should be the description.
+
     @apiParam {Number} first_arg Some number.
     @apiParam {String} [second_arg] Some string.
 
