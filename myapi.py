@@ -3,7 +3,7 @@
 
 def functional_method(first_arg, second_arg='Test'):
     """
-    @api {get} functional_method Functional Method
+    @api {fn} functional_method Functional Method
     @apiName FunctionalMethod
     @apiGroup TestApi
 
@@ -13,7 +13,7 @@ def functional_method(first_arg, second_arg='Test'):
     @apiExample {python} Example usage:
         functional_method(5, "This is cool")
 
-    @apiSuccessExample {json}
+    @apiSuccessExample {json} Success
         {
             "firstname": 5,
             "lastname": "This is cool"
