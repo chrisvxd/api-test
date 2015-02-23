@@ -13,7 +13,7 @@ def functional_method(first_arg, second_arg='Test'):
     @apiExample {python} Example usage:
         functional_method(5, "This is cool")
 
-    @apiSuccessExample {json} Success
+    @apiSuccessExample {json} Success-Response
         {
             "firstname": 5,
             "lastname": "This is cool"
